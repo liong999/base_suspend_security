@@ -13,3 +13,8 @@ class IrRule(models.Model):
         if isinstance(self.env.uid, BaseSuspendSecurityUid):
             return [], [], ['"%s"' % self.pool[model_name]._table]
         return super(IrRule, self).domain_get(model_name, mode=mode)
+
+    def _compute_domain(self, model_name, mode="read"):
+        if isinstance(self.env.uid, BaseSuspendSecurityUid):
+            return
+        return super(IrRule, self)._compute_domain(model_name, mode=mode)
