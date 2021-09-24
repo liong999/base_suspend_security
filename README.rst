@@ -87,12 +87,13 @@ Contributors
 Maintainers
 ~~~~~~~~~~~
 
-This module is maintained by the OCA.
+This module is maintained by the OCA. And modied by Liong
 
 .. image:: https://odoo-community.org/logo.png
    :alt: Odoo Community Association
    :target: https://odoo-community.org
-
+   :target: https://www.linkedin.com/in/nagara-liong-50ab07136/
+   
 OCA, or the Odoo Community Association, is a nonprofit organization whose
 mission is to support the collaborative development of Odoo features and
 promote its widespread use.
